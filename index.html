@@ -1,22 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geovanny Gabriel | Página pessoal</title>
+    <title>Geovanny | Página pessoal</title>
+
 </head>
 <body>
-    <h1>Geovanny Gabriel</h1>
+    <header>
+    <h1>Geovanny</h1>
     <p>Estudante de Análise e Desenvolvimento de Sistemas, em busca de me tornar desenvolvedor<p>
 
-        <h2>O que estou estudando</h2>
-        <ul>
+        <nav>
+    <a href="#estudos">Estudos</a>
+    <a href="#contato">Contato</a>
+</nav>
+</header>
+
+<main>
+
+ <section id="estudos">
+<h2>O que estou estudando</h2>
+<ul>
   <li>Git e GitHub</li>
   <li>HTML</li>
   <li>Java</li>
-</ul>
-          <a href="https://github.com/geovanny2705">Meu Github</a>
-</body>
-            </html>
+  </ul>
+ </section>
 
+ <section id="contato">
+    <h2>Contato</h2>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+ </section>
+</main>
         
+
+<footer>
+          <a href="https://github.com/geovanny2705">Meu Github</a>
+      </footer>  
+    </body>
